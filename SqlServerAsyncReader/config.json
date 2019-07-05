@@ -1,0 +1,24 @@
+{
+	"server": "SCHVW2K12R2-DB",
+		"authentication": {
+			"type": "ntlm",
+			"options": {
+				"userName": "wbw07",
+				"password": "******",
+				"domain": "SEAGULL"
+            }
+		},
+    "database": "DCustomer",
+	"options": {
+		"instanceName": "MSSQL2016",
+        "database": "DCustomer",
+        "encrypt": false,
+        "debug": {
+			"data": true,
+            "payload": false,
+            "token": false,
+            "packet": true,
+            "log": true
+		}
+	}
+}

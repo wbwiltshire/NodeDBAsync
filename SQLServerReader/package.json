@@ -1,0 +1,16 @@
+{
+  "name": "SQLServerReader",
+  "version": "0.9.0",
+  "description": "Read rows from SQL Server database",
+  "main": "node ./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "tedious": "^2.7.1"
+  }
+}

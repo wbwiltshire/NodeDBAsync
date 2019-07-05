@@ -1,0 +1,15 @@
+{
+  "name": "SQLite3Reader",
+  "version": "0.9.0",
+  "description": "Read rows from SQLite3 database",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": {
+    "name": "wbw07"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.13"
+  }
+}

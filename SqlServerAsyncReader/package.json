@@ -1,0 +1,14 @@
+{
+  "name": "sqlserverasyncreader",
+  "version": "0.9.0",
+  "description": "Simple example of accessing SQL Server database from Node.js asynchronously",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wbw07",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^5.1.0"
+  }
+}
