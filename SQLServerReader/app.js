@@ -26,7 +26,7 @@
       server: 'SCHVW2K12R2-DB',
 	  domain: 'SEAGULL',
 	  userName: 'wbw07',
-	  password: '********',
+	  password: '*******',
 	  options: {
 		instanceName: 'MSSQL2016',
 		trustedConnection: true,
@@ -86,6 +86,9 @@
 	else {
 		console.log("Done!");
 	}
+	console.log("Closing DB connection.");
+	connection.close();
+	process.exit(1);
 	process.exit(1);
   };
   
@@ -96,11 +99,12 @@
 	else {
 		console.log('Connected\n');
 	
-		// async.waterfall([
-		// FindTopAll
-		// ], Complete);
-		FindTopAll(function (data) {
-			Complete;
-		});
+		async.waterfall([
+			FindTopAll
+			], Complete
+		);
+		//FindTopAll(function (data) {
+		//	Complete;
+		//});
 	};
   });

@@ -14,7 +14,7 @@ const sql = require('./sqllib.js');
 			var cnt = await sql.findAll(); 
 			console.log('\nRows processed: ', cnt);
 		
-			sql.closeDB();
+			await sql.closeDB();
 			process.exit(0);
 		}
 		else

@@ -4,7 +4,7 @@
 			"type": "ntlm",
 			"options": {
 				"userName": "wbw07",
-				"password": "******",
+				"password": "********",
 				"domain": "SEAGULL"
             }
 		},
