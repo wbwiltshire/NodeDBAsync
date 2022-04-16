@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.0",
-    "tedious": "^9.2.1"
+    "async": "3.2.3",
+    "tedious": "14.4.0"
   }
 }

@@ -9,6 +9,6 @@
   "author": "wbw07",
   "license": "ISC",
   "dependencies": {
-    "mssql": "^6.2.1"
+    "mssql": "^6.4.1"
   }
 }
