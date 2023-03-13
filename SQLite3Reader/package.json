@@ -10,6 +10,6 @@
     "name": "wbw07"
   },
   "dependencies": {
-    "sqlite3": "5.0.3"
+    "sqlite3": "5.1.5"
   }
 }
